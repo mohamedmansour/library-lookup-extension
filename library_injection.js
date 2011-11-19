@@ -6,10 +6,14 @@ resumeDOM = resumeDOM.parentNode;
 
 var librariesDOM = document.createElement('span');
 librariesDOM.innerText = 'En Bibliotheque';
-librariesDOM.className = 'lblLibraries_adv2';
+librariesDOM.className = 'lblLibraries_adv2 lblMore';
 var librariesWrapperDOM = document.createElement('div');
 librariesWrapperDOM.className = 'lblMoreContainer';
 librariesWrapperDOM.appendChild(librariesDOM);
+
+var librariesContent = document.createElement('div');
+librariesContent.innerText = 'A determiner';
+librariesContent.className = 'library_lookup_body';
+
 resumeDOM.parentNode.insertBefore(librariesWrapperDOM, resumeDOM);
-
-
+resumeDOM.parentNode.insertBefore(librariesContent, resumeDOM);
