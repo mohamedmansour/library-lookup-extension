@@ -1,0 +1,8 @@
+{
+  "extensionName": {
+    "message": "Library Lookup"
+  },
+  "extensionDescription": {
+    "message": "For the Open Data Montreal Hackathon, queries libraries for available books from book stores."
+  }
+}

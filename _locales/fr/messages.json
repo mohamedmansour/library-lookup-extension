@@ -1,0 +1,8 @@
+{
+  "extensionName": {
+    "message": "Recherche Bibliotheque"
+  },
+  "extensionDescription": {
+    "message": "Pour le Hackathon Montreal Ouvert, recherche les bibliotheques de Montreal pour la disponibilitee des livres"
+  }
+}

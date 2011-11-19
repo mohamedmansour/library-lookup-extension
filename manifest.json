@@ -1,13 +1,14 @@
 {
-  "name": "Montreal Hackathon",
+  "name": "__MSG_extensionName__",
   "version": "1.0.0",
-  "description": "Query Montreal Libray Data",
+  "description": "__MSG_extensionDescription__",
   "icons": {
     "16": "img/icon16.png",
     "32": "img/icon32.png",
     "48": "img/icon48.png",
     "128": "img/icon128.png"
   },
+  "default_locale": "fr",
   "background_page": "background.html",
   "content_scripts": [{
     "matches": ["http://www.renaud-bray.com/Livres_Produit.aspx*"],
