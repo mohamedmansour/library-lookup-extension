@@ -5,7 +5,7 @@ var resumeDOM = document.querySelector('.lblResume_adv2');
 resumeDOM = resumeDOM.parentNode;
 
 var librariesDOM = document.createElement('span');
-librariesDOM.innerText = 'En Bibliotheque';
+librariesDOM.innerText = chrome.i18n.getMessage('libraryHeader');
 librariesDOM.className = 'lblLibraries_adv2 lblMore';
 var librariesWrapperDOM = document.createElement('div');
 librariesWrapperDOM.className = 'lblMoreContainer';

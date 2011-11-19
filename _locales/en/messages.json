@@ -4,5 +4,8 @@
   },
   "extensionDescription": {
     "message": "For the Open Data Montreal Hackathon, queries libraries for available books from book stores."
+  },
+  "libraryHeader": {
+    "message": "Books In Library"
   }
 }
