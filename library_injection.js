@@ -1,6 +1,6 @@
 
 var render = function() {
-  var spacerDOM = document.querySelector('.tbl_spacer');
+  var spacerDOM = document.querySelector('.rowSpacer');
 
   var resumeDOM = document.querySelector('.lblResume_adv2');
   resumeDOM = resumeDOM.parentNode;
@@ -19,6 +19,7 @@ var render = function() {
 
   var parentResume = resumeDOM.parentNode;
   parentResume.insertBefore(librariesWrapperDOM, resumeDOM);
+  parentResume.insertBefore(spacerDOM.cloneNode(true), resumeDOM);
   parentResume.insertBefore(librariesContent, resumeDOM);
   parentResume.insertBefore(spacerDOM.cloneNode(true), resumeDOM);
 
@@ -30,7 +31,9 @@ var renderLibraries = function(data) {
   data.forEach(function(element, index) {
     var item = document.createElement('li');
     var status = document.createElement('span');
-    status.innerText = element.status;
+    status.innerText = element.status ? 'Available' : 'Unavailable';
+    status.className = element.status ? 'available' : 'unavailable';
+
     item.appendChild(status);
     item.appendChild(document.createTextNode(element.district));
     resultList.appendChild(item);

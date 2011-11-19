@@ -4,3 +4,32 @@
  font-weight: bold !important;
 }
 
+#result_list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#result_list li {
+  display: block;
+  height: 30px;
+}
+
+#result_list li span {
+  padding: 5px;
+  margin: 5px;
+  display: inline-block;
+  width: 80px;
+  text-align: center;
+  color: white;
+}
+
+span.available {
+  background-color: green;
+}
+
+span.unavailable {
+  background-color: red;
+}
+
+
