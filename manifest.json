@@ -12,6 +12,7 @@
   "content_scripts": [{
     "matches": ["http://www.renaud-bray.com/Livres_Produit.aspx*"],
     "js": ["library_injection.js"],
+    "css": ["library_injection.css"],
     "run_at": "document_end"
   }]
 }
