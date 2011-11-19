@@ -17,3 +17,12 @@ librariesContent.className = 'library_lookup_body';
 
 resumeDOM.parentNode.insertBefore(librariesWrapperDOM, resumeDOM);
 resumeDOM.parentNode.insertBefore(librariesContent, resumeDOM);
+
+var isbnSpan = document.querySelector('span[id$="ISBNInfo"]');
+if( isbnSpan ) {
+    isbn = isbnSpan.innerText.match(/\((\d+)\)/);
+    if( isbn ) {
+        librariesContent.innerText = isbn[1];
+    }
+}
+
