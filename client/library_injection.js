@@ -44,10 +44,12 @@ var isbnSpan = document.querySelector('span[id$="ISBNInfo"]');
 if( isbnSpan ) {
     var isbnMatch = isbnSpan.innerText.match(/\((\d+)\)/);
     if( isbnMatch ) {
-        var ui = render();
         var isbn = isbnMatch[1];
         chrome.extension.sendRequest({method: 'GetLibraryData', data: isbn}, function(res) {
-          renderLibraries(res);
+          if (res.length > 0) {
+            var ui = render();
+            renderLibraries(res);
+          }
         });
     }
 }

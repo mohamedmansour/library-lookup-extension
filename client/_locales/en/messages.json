@@ -1,11 +1,11 @@
 {
   "extensionName": {
-    "message": "Library Lookup"
+    "message": "Recherche Bibliotheque"
   },
   "extensionDescription": {
-    "message": "For the Open Data Montreal Hackathon, queries libraries for available books from book stores."
+    "message": "Pour le Hackathon Montreal Ouvert, recherche les bibliotheques de Montreal pour la disponibilitee des livres"
   },
   "libraryHeader": {
-    "message": "Books In Library"
+    "message": "En Biblioth\u00E8que"
   }
 }

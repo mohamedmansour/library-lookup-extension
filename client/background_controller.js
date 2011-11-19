@@ -6,7 +6,7 @@
  */
 BackgroundController = function() {
   this.onExtensionLoaded();
-  this.LIBRARY_SERVICE_URL = '/mock_response.json';
+  this.LIBRARY_SERVICE_URL = 'http://50.57.173.119/library.php?isbn=';
 };
 
 /**
@@ -66,7 +66,7 @@ BackgroundController.prototype.onMessage = function(request, sender, response) {
 
 BackgroundController.prototype.getLibraryData = function(isbn, callback) {
   var xhr = new XMLHttpRequest();
-  xhr.open('GET', this.LIBRARY_SERVICE_URL/* + isbn*/, true);
+  xhr.open('GET', this.LIBRARY_SERVICE_URL + isbn, true);
   xhr.onload = function(e) {
     if (xhr.status == 200) {
       var response = JSON.parse(xhr.responseText);

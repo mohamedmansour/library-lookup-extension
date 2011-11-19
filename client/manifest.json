@@ -8,7 +8,8 @@
     "48": "img/icon48.png",
     "128": "img/icon128.png"
   },
-  "default_locale": "fr",
+  "permissions": ["http://50.57.173.119/*"],
+  "default_locale": "en",
   "background_page": "background.html",
   "content_scripts": [{
     "matches": ["http://www.renaud-bray.com/Livres_Produit.aspx*"],
