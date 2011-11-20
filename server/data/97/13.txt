@@ -1,0 +1,77 @@
+9782800101019	Prêté	Ahuntsic/Cartierville
+9782800101019	Disponible	Ahuntsic/Cartierville
+9782800101019	Disponible	Ahuntsic/Cartierville
+9782800101019	Prêté	Ahuntsic/Cartierville
+9782800101019	Disponible	Ahuntsic/Cartierville
+9782800101019	En traitement	Côte-des-neiges/Notre-Dame-de-Grâce
+9782800101019	En transit	Côte-des-neiges/Notre-Dame-de-Grâce
+9782800101019	Disponible	Côte-des-neiges/Notre-Dame-de-Grâce
+9782800101019	Prêté	Côte-des-neiges/Notre-Dame-de-Grâce
+9782800101019	Élagué rebut	Côte-des-neiges/Notre-Dame-de-Grâce
+9782800101019	Disponible	Île Bizard/Ste-Geneviève
+9782800101019	Prêté	Mercier/Hochelaga/Maisonneuve
+9782800101019	Disponible	Mercier/Hochelaga/Maisonneuve
+9782800101019	Disponible	Montréal-Nord
+9782800101019	Prêté	Plateau Mont-Royal
+9782800101019	Prêté	Rosemont/La petite Patrie
+9782800101019	Disponible	Rivière-des-Prairies/Pointe-aux-Trembles
+9782800101019	Prêté	St-Laurent
+9782800101019	Disponible	Sud-Ouest
+9782800101019	À la reliure	Verdun
+9782800101019	Prêté	Villeray/St-Michel/Parc Extention
+9782800101095	En transit	Ahuntsic/Cartierville
+9782800101095	Élagué vente	Ahuntsic/Cartierville
+9782800101095	Élagué vente	Ahuntsic/Cartierville
+9782800101095	Prêté	Ahuntsic/Cartierville
+9782800101095	Prêté	Anjou
+9782800101095	En traitement	Côte-des-neiges/Notre-Dame-de-Grâce
+9782800101095	introuvable	Côte-des-neiges/Notre-Dame-de-Grâce
+9782800101095	Prêté	Côte-des-neiges/Notre-Dame-de-Grâce
+9782800101095	En transit	Côte-des-neiges/Notre-Dame-de-Grâce
+9782800101095	Prêté	Côte-des-neiges/Notre-Dame-de-Grâce
+9782800101095	Prêté	Île Bizard/Ste-Geneviève
+9782800101095	Prêté	Île Bizard/Ste-Geneviève
+9782800101095	Prêté	Lachine
+9782800101095	Prêté	LaSalle
+9782800101095	Élagué rebut	LaSalle
+9782800101095	Disponible	Mercier/Hochelaga/Maisonneuve
+9782800101095	Prêté	Mercier/Hochelaga/Maisonneuve
+9782800101095	Prêté	Mercier/Hochelaga/Maisonneuve
+9782800101095	Prêté	Mercier/Hochelaga/Maisonneuve
+9782800101095	Prêté	Montréal-Nord
+9782800101095	Prêté	Montréal-Nord
+9782800101095	Prêté	Montréal-Nord
+9782800101095	Perdu et payé	Outremont
+9782800101095	Prêté	Outremont
+9782800101095	Disponible	Plateau Mont-Royal
+9782800101095	Prêté	Plateau Mont-Royal
+9782800101095	Prêté	Plateau Mont-Royal
+9782800101095	Élagué vente	Plateau Mont-Royal
+9782800101095	En traitement	Pierrefonds/Roxboro
+9782800101095	En traitement	Rosemont/La petite Patrie
+9782800101095	Prêté	Rivière-des-Prairies/Pointe-aux-Trembles
+9782800101095	Prêté	Rivière-des-Prairies/Pointe-aux-Trembles
+9782800101095	Disponible	Rivière-des-Prairies/Pointe-aux-Trembles
+9782800101095	Disponible	Rivière-des-Prairies/Pointe-aux-Trembles
+9782800101095	Disponible	St-Laurent
+9782800101095	Prêté	St-Laurent
+9782800101095	Prêté	St-Laurent
+9782800101095	Disponible	Sud-Ouest
+9782800101095	Disponible	Sud-Ouest
+9782800101095	Disponible	Sud-Ouest
+9782800101095	Retiré temporairement	Sud-Ouest
+9782800101095	Prêté	Sud-Ouest
+9782800101095	Disponible	Sud-Ouest
+9782800101095	Prêté	Sud-Ouest
+9782800101095	À la reliure	Verdun
+9782800101095	Prêté	Ville-Marie
+9782800101095	Prêté	Ville-Marie
+9782800101095	Prêté	Villeray/St-Michel/Parc Extention
+9782800101095	Disponible	Villeray/St-Michel/Parc Extention
+9782800101095	Prêté	Villeray/St-Michel/Parc Extention
+9782800101095	Prêté	Villeray/St-Michel/Parc Extention
+9782800101095	Disponible	Villeray/St-Michel/Parc Extention
+9782800101095	Disponible	Sans arroundissement
+9782800101095	Prêté	Sans arroundissement
+9782800101095	Disponible	Sans arroundissement
+9782800101095	Perdu	Sans arroundissement

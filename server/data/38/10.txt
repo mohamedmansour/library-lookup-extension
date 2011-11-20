@@ -1,0 +1,9 @@
+3829062699	Disponible	Côte-des-neiges/Notre-Dame-de-Grâce
+3829062699	Disponible	Montréal-Nord
+3829062699	Disponible	Rosemont/La petite Patrie
+3829062699	Perdu	Rosemont/La petite Patrie
+3829062699	Disponible	Rivière-des-Prairies/Pointe-aux-Trembles
+3829062699	Disponible	Verdun
+3829062699	Disponible	Villeray/St-Michel/Parc Extention
+3829062699	Disponible	Villeray/St-Michel/Parc Extention
+3829062699	Disponible	Villeray/St-Michel/Parc Extention
