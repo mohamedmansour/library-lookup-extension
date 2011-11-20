@@ -8,7 +8,7 @@ BEGIN {
 }
 
 NF == 19 && $19 != "" {
-	split($19, a, " ");
+	split($19, a, "[^0-9A-Z]");
 	ISN = a[1]
 	len = length(ISN)
 	if (len != 10 && len != 13) next
