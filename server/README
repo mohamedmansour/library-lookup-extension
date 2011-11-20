@@ -1,1 +1,25 @@
-Server side code that reads the data from open data
+Server side code for Montreal Open Data Hackathon (Nov 2011)
+
+The PHP script is called with an ISBN:
+http://x.x.x.x/library.php?isbn=3829062699
+
+It returns results on availability in local libraries:
+[{"status":true,"district":"Cte-des-neiges/Notre-Dame-de-Grce"},{"status":true,"district":"Montral-Nord"},{"status":true,"district":"Rosemont/La petite Patrie"},{"status":false,"district":"Rosemont/La petite Patrie"},{"status":true,"district":"Rivire-des-Prairies/Pointe-aux-Trembles"},{"status":true,"district":"Verdun"},{"status":true,"district":"Villeray/St-Michel/Parc Extention"},{"status":true,"district":"Villeray/St-Michel/Parc Extention"},{"status":true,"district":"Villeray/St-Michel/Parc Extention"}]
+
+The script uses a structured version of the library data. Given a 10 or 13 digit ISBN, it looks in file data/PP/LL.txt where LL is the length (10 or 13) and PP is the prefix (first two digits of the ISBN).
+
+The data files are tab-separated lines with three columns: ISBN (col 19 in original data), status (col 6 in original data), and district (col 1 in original data). They are sorted by ISBN.
+
+So overall, the structured data is both smaller and more easily searched than the original flat data file. This helps when running the PHP script on a resource constrained (256 MB RAM) virtual private server.
+
+Checking the entire original flat data file using a simple AWK script takes approximately 15s on a machine with an SSD (solid state drive).
+
+Actually processing the data into separate files takes much longer:
+
+awk -f process.awk catalogue-bibliotheques.txt
+
+This is probably due to the many file open, append, and close operations in the AWK script. It would be better to load more of the data into memory before writing to separate files, and this would also avoid the next sorting step.
+
+find data -name '*.txt' -exec sort -o {}.sorted {} \; -exec mv {}.sorted {} \;
+
+Note that the PHP script currently doesn't take advantage of the sorted nature of the data.
