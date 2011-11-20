@@ -8,7 +8,7 @@ We implemented a Chrome extension for the book store http://www.renaud-bray.com/
 
 We also implemented a small web service to query library availability by ISBN; ideally this would be replaced by an official web service for accessing live data.
 
-This repo includes only a sample of the data: ISBNs 3829062699, 0385333536, 9782800101019, 9782800101095.
+This repo includes only a sample of the data: ISBNs 3829062699, 0385333536, 9748279804, 9782800101019, 9782800101095.
 
 You can find the original data here:
 http://donnees.ville.montreal.qc.ca/archives/fiche-donnees/catalogue-bibliotheques
