@@ -4,7 +4,7 @@ We wanted to do something interesting and helpful with the newly released librar
 
 We decided to build a browser extension which would augment the web pages of online book stores to display library availability of the books shown.
 
-We implemented a Chrome extension for the book store http://www.renaud-bray.com/ but other browsers (e.g. Firefox) and book stores (e.g. Amazon.ca) could follow.
+We implemented a Chrome extension for the book store Renaud-Bray.com but other browsers (e.g. Firefox) and book stores (e.g. Amazon.ca) could follow.
 
 We also implemented a small web service to query library availability by ISBN; ideally this would be replaced by an official web service for accessing live data.
 
