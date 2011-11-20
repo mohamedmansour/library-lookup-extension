@@ -38,7 +38,6 @@ if ($isbn_length == 10 or $isbn_length == 13)
 			{
 				$matches[] = $buffer;
 			}
-
 		}
 		fclose($handle);
 	}
@@ -68,8 +67,7 @@ if ($isbn_length == 10 or $isbn_length == 13)
 		{
 			echo "false";
 		}
-	    	echo ",";
-
+	    echo ",";
 		
 		echo "\"district\":";
 		echo "\"";
@@ -85,7 +83,7 @@ if ($isbn_length == 10 or $isbn_length == 13)
 }
 else
 {
-	/* Marc says "I dont know about that" */
+	/* Marc says "I don't know about that" */
 	echo "{}";
 }
 
