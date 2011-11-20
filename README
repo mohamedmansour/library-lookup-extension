@@ -1,0 +1,22 @@
+Montreal Open Data Hackathon (Nov 2011)
+
+We wanted to do something interesting and helpful with the newly released library data: a 1GB tab-separated flat file with 4.5M records of 19 fields.
+
+We decided to build a browser extension which would augment the web pages of online book stores to display library availability of the books shown.
+
+We implemented a Chrome extension for the book store http://www.renaud-bray.com/ but other browsers (e.g. Firefox) and book stores (e.g. Amazon.ca) could follow.
+
+We also implemented a small web service to query library availability by ISBN; ideally this would be replaced by an official web service for accessing live data.
+
+This repo includes only a sample of the data: ISBNs 3829062699, 0385333536, 9782800101019, 9782800101095.
+
+You can find the original data here:
+http://donnees.ville.montreal.qc.ca/archives/fiche-donnees/catalogue-bibliotheques
+
+We had a great time and hope you find this hack useful.
+
+Alexis Brunet
+Rod Dunne
+Enrique Hotes
+Marc Lepage
+Mohamed Mansour
